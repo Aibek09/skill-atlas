@@ -1,0 +1,30 @@
+name: Report a broken link or correction
+description: Report an outdated URL, attribution problem, removal request, or factual correction.
+title: "[Correction]: "
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource or URL
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem type
+      options:
+        - Broken or redirected link
+        - Incorrect description
+        - Incorrect attribution
+        - Duplicate entry
+        - Removal request
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details and supporting source
+      description: Explain the correction and provide an authoritative source when possible.
+    validations:
+      required: true
