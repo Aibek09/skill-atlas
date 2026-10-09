@@ -2,6 +2,8 @@
 
 A focused, searchable catalog of AI-agent resources from across GitHub.
 
+**Live site:** <https://aibek09.github.io/skill-atlas/>
+
 Skill Atlas currently organizes **172 resources from 82 repositories** across engineering, product, design, research, security, operations, and other categories. Entries include individual skills, collections, tools, and guides. Each entry provides a concise catalog summary and a direct link to its original GitHub source.
 
 > Skill Atlas is an independent directory. It is not affiliated with GitHub or the linked projects, and inclusion is not an endorsement or security review.
