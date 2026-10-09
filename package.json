@@ -1,0 +1,12 @@
+{
+  "name": "skill-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A searchable catalog of AI-agent resources from GitHub.",
+  "scripts": {
+    "start": "python3 -m http.server 4173 --directory dist",
+    "test": "node scripts/validate-catalog.mjs"
+  },
+  "license": "MIT"
+}
+
