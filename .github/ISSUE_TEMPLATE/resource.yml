@@ -1,0 +1,44 @@
+name: Suggest a resource
+description: Propose a high-quality AI-agent resource for Skill Atlas.
+title: "[Resource]: "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical GitHub URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Resource type
+      options:
+        - Individual skill
+        - Collection or toolkit
+        - Guide or playbook
+        - Directory
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why it belongs in the catalog
+      description: Explain its purpose, intended users, and evidence of quality.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: The repository is publicly accessible and this is its canonical source.
+          required: true
+        - label: I reviewed the contribution and licensing guidance.
+          required: true
